@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía académica sobre Refrigeración: Controlando la Temperatura para estudio de hardware en el programa SENA ADSO.">
+  <title>Refrigeración: Controlando la Temperatura | Guía de Hardware ADSO</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+
+  <div class="barra-progreso" aria-hidden="true"></div>
+
+  <header class="header-principal">
+    <div class="contenedor-header">
+      <div class="header-acciones">
+        <span class="indicador-tema">Tema 6 de 7</span>
+        <button id="btn-tema" class="btn-tema" aria-pressed="false" type="button">🌙 Modo Oscuro</button>
+      </div>
+      <h1>Refrigeración: Controlando la Temperatura</h1>
+    </div>
+  </header>
+
+  <nav class="nav-principal" aria-label="Navegación de Temas">
+    <ol>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="tarjeta-madre.html" >1. Tarjeta Madre</a></li>
+      <li><a href="procesador.html" >2. Procesador</a></li>
+      <li><a href="memoria-ram.html" >3. Memoria RAM</a></li>
+      <li><a href="almacenamiento.html" >4. Almacenamiento SSD</a></li>
+      <li><a href="fuente-poder.html" >5. Fuente de Poder</a></li>
+      <li><a href="refrigeracion.html" aria-current='page'>6. Refrigeración</a></li>
+      <li><a href="tarjeta-grafica.html" >7. Tarjeta Gráfica</a></li>
+    </ol>
+  </nav>
+
+  <div class="breadcrumb-container">
+    <ul class="breadcrumb">
+      <li><a href="../index.html">Inicio</a></li>
+      <li aria-current="page">Refrigeración</li>
+    </ul>
+  </div>
+
+  <div class="contenedor-layout">
+    <div class="layout-articulo">
+      <main>
+        <article class="articulo-principal">
+          <header class="articulo-encabezado">
+            <svg class="icono-svg-contenedor" role="img" aria-labelledby="t-svg-6 desc-svg-6" viewBox="0 0 24 24">
+              <title id="t-svg-6">Refrigeración: Controlando la Temperatura</title>
+              <desc id="desc-svg-6">Icono semántico representando Refrigeración: Controlando la Temperatura</desc>
+              <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm0-10a2 2 0 1 0 2 2 2 2 0 0 0-2-2z"/>
+            </svg>
+            <div>
+              <h2>Refrigeración: Controlando la Temperatura</h2>
+              <p><small>Módulo educativo para la infraestructura del computador de desarrollo</small></p>
+            </div>
+          </header>
+
+          <figure>
+            <img src="../img/cooler.jpg" alt="Disipador por aire eficiente con tubos de calor (heatpipes) de cobre directo y ventilador silencioso.">
+            <figcaption>Figura 6. Disipador por aire eficiente con tubos de calor (heatpipes) de cobre directo y ventilador silencioso.</figcaption>
+          </figure>
+
+          <section class="seccion-contenido">
+            <h2>¿Qué es?</h2>
+            <p>Es el conjunto de elementos mecánicos y térmicos diseñados para extraer y disipar el calor generado por los semiconductores del equipo (especialmente CPU y GPU) durante su funcionamiento intensivo.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Función Principal</h2>
+            <p>Mantener las temperaturas de trabajo del procesador dentro de límites seguros (por debajo de 75-80°C). Esto evita el fenómeno conocido como Thermal Throttling (estrangulamiento térmico), donde la CPU reduce automáticamente su velocidad para evitar quemarse.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Importancia para la Programación</h2>
+            <p>Procesos como la compilación de grandes bases de código o el entrenamiento de modelos de Machine Learning hacen trabajar al procesador al 100% durante minutos u horas. Un enfriamiento eficiente asegura que la CPU opere a su máxima frecuencia Boost constantemente.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Recomendación para Estudiantes ADSO</h2>
+            <p>Un disipador por aire tipo torre de buena calidad ($25 - $40 USD) es más que suficiente para procesadores de gama media (Ryzen 5 / Core i5). No es indispensable invertir en sistemas líquidos costosos a menos que se haga overclocking o cargas extremas.</p>
+          </section>
+
+          <div class="caja-curiosidad">
+            <h3>¿Sabías que...?</h3>
+            <p>La pasta térmica aplicada entre el procesador y el disipador no es un enfriador por sí misma; su función es llenar las microscópicas imperfecciones de aire entre ambas metales para optimizar la conducción del calor.</p>
+          </div>
+
+          <nav class="paginacion-articulo" aria-label="Navegación entre artículos">
+            <a href="fuente-poder.html" class="btn-nav-pag">&laquo; Anterior: Fuente de Poder</a>
+            <a href="tarjeta-grafica.html" class="btn-nav-pag">Siguiente: Tarjeta Gráfica &raquo;</a>
+          </nav>
+        </article>
+      </main>
+
+      <aside class="sidebar-info" aria-labelledby="aside-t6">
+        <h3 id="aside-t6">Consejos de Mantenimiento</h3>
+        <ul>
+          <li><strong>Limpieza de polvo:</strong> Sopletear el polvo interior cada 6 meses con aire comprimido.</li><li><strong>Pasta Térmica:</strong> Reemplazar la pasta térmica del procesador cada 12 a 18 meses.</li><li><strong>Flujo de Aire:</strong> Asegurar un flujo constante (frente: entrada de aire frío; posterior/arriba: salida de aire caliente).</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer-principal">
+    <div class="footer-contenido">
+      <p><strong>Programa SENA ADSO</strong> | Evidencia de Aprendizaje HTML5 &amp; CSS3</p>
+      <p>&copy; 2026 - Guía para Armar un Computador para Estudio y Programación</p>
+    </div>
+  </footer>
+
+</body>
+</html>

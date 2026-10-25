@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía académica sobre Memoria RAM: Velocidad para tus Programas para estudio de hardware en el programa SENA ADSO.">
+  <title>Memoria RAM: Velocidad para tus Programas | Guía de Hardware ADSO</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+
+  <div class="barra-progreso" aria-hidden="true"></div>
+
+  <header class="header-principal">
+    <div class="contenedor-header">
+      <div class="header-acciones">
+        <span class="indicador-tema">Tema 3 de 7</span>
+        <button id="btn-tema" class="btn-tema" aria-pressed="false" type="button">🌙 Modo Oscuro</button>
+      </div>
+      <h1>Memoria RAM: Velocidad para tus Programas</h1>
+    </div>
+  </header>
+
+  <nav class="nav-principal" aria-label="Navegación de Temas">
+    <ol>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="tarjeta-madre.html" >1. Tarjeta Madre</a></li>
+      <li><a href="procesador.html" >2. Procesador</a></li>
+      <li><a href="memoria-ram.html" aria-current='page'>3. Memoria RAM</a></li>
+      <li><a href="almacenamiento.html" >4. Almacenamiento SSD</a></li>
+      <li><a href="fuente-poder.html" >5. Fuente de Poder</a></li>
+      <li><a href="refrigeracion.html" >6. Refrigeración</a></li>
+      <li><a href="tarjeta-grafica.html" >7. Tarjeta Gráfica</a></li>
+    </ol>
+  </nav>
+
+  <div class="breadcrumb-container">
+    <ul class="breadcrumb">
+      <li><a href="../index.html">Inicio</a></li>
+      <li aria-current="page">Memoria RAM</li>
+    </ul>
+  </div>
+
+  <div class="contenedor-layout">
+    <div class="layout-articulo">
+      <main>
+        <article class="articulo-principal">
+          <header class="articulo-encabezado">
+            <svg class="icono-svg-contenedor" role="img" aria-labelledby="t-svg-3 desc-svg-3" viewBox="0 0 24 24">
+              <title id="t-svg-3">Memoria RAM: Velocidad para tus Programas</title>
+              <desc id="desc-svg-3">Icono semántico representando Memoria RAM: Velocidad para tus Programas</desc>
+              <path d="M2 5h20v10H2V5zm2 2v6h16V7H4zm-1 9h18v3H3v-3zm2 1v1h2v-1H5zm4 0v1h2v-1H9zm4 0v1h2v-1h-2zm4 0v1h2v-1h-2z"/>
+            </svg>
+            <div>
+              <h2>Memoria RAM: Velocidad para tus Programas</h2>
+              <p><small>Módulo educativo para la infraestructura del computador de desarrollo</small></p>
+            </div>
+          </header>
+
+          <figure>
+            <img src="../img/ram.jpg" alt="Módulos de memoria RAM DDR4/DDR5 de alto rendimiento con disipador de aluminio.">
+            <figcaption>Figura 3. Módulos de memoria RAM DDR4/DDR5 de alto rendimiento con disipador de aluminio.</figcaption>
+          </figure>
+
+          <section class="seccion-contenido">
+            <h2>¿Qué es?</h2>
+            <p>La Memoria de Acceso Aleatorio (RAM) es el espacio de almacenamiento temporal ultra rápido que utiliza la CPU para guardar los datos e instrucciones de las aplicaciones que se están ejecutando en tiempo real. Al ser una memoria volátil, su contenido se borra al apagar el equipo.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Función Principal</h2>
+            <p>Almacenar las estructuras de datos, variables y procesos activos para que la CPU pueda acceder a ellos de manera casi instantánea (con latencias medidas en nanosegundos), evitando la lentitud que supondría buscar datos constantemente en el almacenamiento secundario.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Importancia para la Programación</h2>
+            <p>Un desarrollador de software suele mantener abiertos simultáneamente el editor de código (VS Code, IntelliJ), decenas de pestañas de documentación en el navegador, motores de bases de datos (PostgreSQL, MySQL) y máquinas virtuales o Docker. Tener suficiente RAM previene la congelación del sistema por swapping.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Recomendación para Estudiantes ADSO</h2>
+            <p>El estándar mínimo para estudiar desarrollo de software en 2026 es de 16 GB de RAM. Se recomienda instalarla en configuración Dual-Channel (2 módulos de 8 GB) para duplicar el ancho de banda del bus de memoria.</p>
+          </section>
+
+          <div class="caja-curiosidad">
+            <h3>¿Sabías que...?</h3>
+            <p>Aprovechar la tecnología Dual-Channel configurando dos módulos idénticos de RAM en lugar de una sola barra puede incrementar el rendimiento general del procesador entre un 10% y un 25% en tareas intensivas de compilación.</p>
+          </div>
+
+          <nav class="paginacion-articulo" aria-label="Navegación entre artículos">
+            <a href="procesador.html" class="btn-nav-pag">&laquo; Anterior: Procesador</a>
+            <a href="almacenamiento.html" class="btn-nav-pag">Siguiente: Almacenamiento SSD &raquo;</a>
+          </nav>
+        </article>
+      </main>
+
+      <aside class="sidebar-info" aria-labelledby="aside-t3">
+        <h3 id="aside-t3">DDR4 vs DDR5</h3>
+        <ul>
+          <li><strong>DDR4:</strong> Tecnología madura, económica y ampliamente accesible. Alcanza velocidades típicas entre 2666 MHz y 3600 MHz.</li><li><strong>DDR5:</strong> Nueva generación con velocidades desde 4800 MHz hasta más de 7200 MHz, incorporando gestión de energía integrada (PMIC) en el módulo y mayor densidad de memoria.</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer-principal">
+    <div class="footer-contenido">
+      <p><strong>Programa SENA ADSO</strong> | Evidencia de Aprendizaje HTML5 &amp; CSS3</p>
+      <p>&copy; 2026 - Guía para Armar un Computador para Estudio y Programación</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía académica para seleccionar y armar un computador orientado al desarrollo de software y estudio en el programa SENA ADSO.">
+  <title>Guía para Armar un Computador | SENA ADSO</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/simulador.js" defer></script>
+</head>
+<body>
+
+  <div class="barra-progreso" aria-hidden="true"></div>
+
+  <header class="header-principal">
+    <div class="contenedor-header">
+      <div class="header-acciones">
+        <span class="indicador-tema">Proyecto SENA ADSO</span>
+        <button id="btn-tema" class="btn-tema" aria-pressed="false" type="button">🌙 Modo Oscuro</button>
+      </div>
+      <h1>Guía para Armar un Computador para Estudio y Programación</h1>
+      <p class="intro-texto">
+        Seleccionar adecuadamente el hardware para el desarrollo de software es fundamental para garantizar un rendimiento óptimo durante la ejecución de entornos de desarrollo (IDE), máquinas virtuales, contenedores y compiladores. Esta guía educativa brinda los fundamentos conceptuales de cada componente clave.
+      </p>
+      <figure class="banner-container">
+        <img src="img/banner.jpg" alt="Estación de trabajo moderna para desarrollo de software con código en pantalla y componentes de PC">
+      </figure>
+    </div>
+  </header>
+
+  <nav class="nav-principal" aria-label="Navegación de Temas">
+    <ol>
+      <li><a href="index.html" aria-current="page">Inicio</a></li>
+      <li><a href="pages/tarjeta-madre.html">1. Tarjeta Madre</a></li>
+      <li><a href="pages/procesador.html">2. Procesador</a></li>
+      <li><a href="pages/memoria-ram.html">3. Memoria RAM</a></li>
+      <li><a href="pages/almacenamiento.html">4. Almacenamiento SSD</a></li>
+      <li><a href="pages/fuente-poder.html">5. Fuente de Poder</a></li>
+      <li><a href="pages/refrigeracion.html">6. Refrigeración</a></li>
+      <li><a href="pages/tarjeta-grafica.html">7. Tarjeta Gráfica</a></li>
+    </ol>
+  </nav>
+
+  <div class="contenedor-layout">
+    <main>
+      <div class="contenedor-busqueda">
+        <label for="input-busqueda" class="visually-hidden">Buscar componente o tema</label>
+        <input type="search" id="input-busqueda" class="input-busqueda" placeholder="🔍 Buscar tema o componente (ej. RAM, SSD, Intel, Fuente)..." aria-label="Buscar temas educativos">
+      </div>
+
+      <div id="sin-resultados" class="sin-resultados" aria-live="polite">
+        <p>No se encontraron temas que coincidan con tu búsqueda.</p>
+      </div>
+
+      <section aria-labelledby="titulo-temas">
+        <h2 id="titulo-temas" style="display:none;">Módulos del Curso</h2>
+        <div class="grid-tarjetas">
+
+          <article class="tarjeta-educativa">
+            <img class="imagen-tarjeta" src="img/motherboard.jpg" alt="Tarjeta madre ATX con socket, ranuras de memoria y conectores PCIe" loading="lazy" decoding="async">
+            <h2>1. Tarjeta Madre</h2>
+            <p>La plataforma principal que interconecta todos los componentes del sistema permitiendo la comunicación de datos eficiente.</p>
+            <a href="pages/tarjeta-madre.html" class="btn-explorar">Explorar Tema</a>
+          </article>
+
+          <article class="tarjeta-educativa">
+            <img class="imagen-tarjeta" src="img/cpu.jpg" alt="Procesador Intel Core i7 de doceava generación" loading="lazy" decoding="async">
+            <h2>2. Procesador</h2>
+            <p>El núcleo de procesamiento encargado de ejecutar instrucciones de software, algoritmos y procesos de compilación.</p>
+            <a href="pages/procesador.html" class="btn-explorar">Explorar Tema</a>
+          </article>
+
+          <article class="tarjeta-educativa">
+            <img class="imagen-tarjeta" src="img/ram.jpg" alt="Módulo de memoria RAM DDR4 de 16 GB" loading="lazy" decoding="async">
+            <h2>3. Memoria RAM</h2>
+            <p>Memoria de alta velocidad crucial para mantener abiertas múltiples aplicaciones, máquinas virtuales y navegadores.</p>
+            <a href="pages/memoria-ram.html" class="btn-explorar">Explorar Tema</a>
+          </article>
+
+          <article class="tarjeta-educativa">
+            <img class="imagen-tarjeta" src="img/ssd.jpg" alt="Unidad de almacenamiento M.2 NVMe Samsung de 500 GB" loading="lazy" decoding="async">
+            <h2>4. SSD Almacenamiento</h2>
+            <p>Unidades de estado sólido de alta velocidad para la lectura y escritura veloz de archivos de código y bases de datos.</p>
+            <a href="pages/almacenamiento.html" class="btn-explorar">Explorar Tema</a>
+          </article>
+
+          <article class="tarjeta-educativa">
+            <img class="imagen-tarjeta" src="img/psu.jpg" alt="Fuente de poder ATX con ventilador y cables de alimentación" loading="lazy" decoding="async">
+            <h2>5. Fuente de Poder</h2>
+            <p>Suministro eléctrico eficiente y certificado que protege y alimenta de forma limpia todos los circuitos del sistema.</p>
+            <a href="pages/fuente-poder.html" class="btn-explorar">Explorar Tema</a>
+          </article>
+
+          <article class="tarjeta-educativa">
+            <img class="imagen-tarjeta" src="img/cooler.jpg" alt="Disipador de torre con ventilador instalado sobre un procesador" loading="lazy" decoding="async">
+            <h2>6. Refrigeración</h2>
+            <p>Sistemas de disipación de calor por aire o líquido para preservar la vida útil y mantener el rendimiento sostenido.</p>
+            <a href="pages/refrigeracion.html" class="btn-explorar">Explorar Tema</a>
+          </article>
+
+          <article class="tarjeta-educativa">
+            <img class="imagen-tarjeta" src="img/gpu.jpg" alt="Tarjeta gráfica MSI GeForce RTX 2080 con tres ventiladores" loading="lazy" decoding="async">
+            <h2>7. Tarjeta Gráfica</h2>
+            <p>Procesamiento gráfico especializado necesario para aceleración por hardware, renderizado y desarrollo en IA o videojuegos.</p>
+            <a href="pages/tarjeta-grafica.html" class="btn-explorar">Explorar Tema</a>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="seccion-simulador">
+        <h2>💻 Simulador Interactivo de Hardware ADSO</h2>
+        <p>Selecciona los componentes sugeridos para simular el costo aproximado, consumo energético y validación para el programa de software:</p>
+
+        <form id="form-simulador" onsubmit="event.preventDefault();">
+          <div class="grid-simulador">
+            
+            <div class="grupo-campo">
+              <label for="select-cpu">Procesador (CPU):</label>
+              <select id="select-cpu">
+                <option value="4" data-precio="380000" data-watts="65">Core i3 / Ryzen 3 (4 Núcleos)</option>
+                <option value="6" data-precio="650000" data-watts="65" selected>Ryzen 5 5600G / Core i5 12400 (6 Núcleos)</option>
+                <option value="8" data-precio="1100000" data-watts="105">Ryzen 7 7700X / Core i7 13700 (8 Núcleos)</option>
+              </select>
+            </div>
+
+            <div class="grupo-campo">
+              <label for="select-ram">Memoria RAM:</label>
+              <select id="select-ram">
+                <option value="8" data-precio="120000">8 GB DDR4</option>
+                <option value="16" data-precio="220000" selected>16 GB DDR4/DDR5 Dual Channel</option>
+                <option value="32" data-precio="420000">32 GB DDR5 High-Speed</option>
+              </select>
+            </div>
+
+            <div class="grupo-campo">
+              <label for="select-ssd">Almacenamiento SSD:</label>
+              <select id="select-ssd">
+                <option value="256" data-precio="110000">256 GB SSD SATA</option>
+                <option value="500" data-precio="190000" selected>500 GB NVMe M.2</option>
+                <option value="1000" data-precio="320000">1 TB NVMe PCIe 4.0</option>
+              </select>
+            </div>
+
+            <div class="grupo-campo">
+              <label for="select-gpu">Tarjeta Gráfica (GPU):</label>
+              <select id="select-gpu">
+                <option value="0" data-precio="0" data-watts="0" selected>Gráficos Integrados (Vega / UHD)</option>
+                <option value="1" data-precio="1200000" data-watts="110">NVIDIA RTX 3050 (8 GB VRAM)</option>
+                <option value="2" data-precio="1800000" data-watts="160">NVIDIA RTX 4060 (8 GB VRAM)</option>
+              </select>
+            </div>
+
+          </div>
+        </form>
+
+        <div class="panel-resultados" aria-live="polite">
+          <p><strong>Costo Estimado Aproximado:</strong> <span id="res-precio">$ 0 COP</span></p>
+          <p><strong>Consumo Eléctrico Estimado:</strong> <span id="res-watts">0 W</span></p>
+          <div id="res-estado-adso" class="estado-adso"></div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="sidebar-info" aria-labelledby="titulo-aside">
+      <h2 id="titulo-aside">Configuración Recomendada ADSO</h2>
+      <p>Para un aprendizaje fluido en Análisis y Desarrollo de Software (ADSO), se sugiere este perfil de hardware balanceado:</p>
+      <ul>
+        <li><strong>Procesador:</strong> AMD Ryzen 5 o Intel Core i5.</li>
+        <li><strong>Memoria RAM:</strong> 16 GB DDR4/DDR5.</li>
+        <li><strong>Almacenamiento:</strong> 500 GB SSD NVMe M.2.</li>
+        <li><strong>Fuente de Poder:</strong> 550W con certificación 80 Plus Bronze.</li>
+        <li><strong>Refrigeración:</strong> Disipador de torre por aire.</li>
+      </ul>
+      <p><small><em>Nota: Esta configuración permite ejecutar Docker, VS Code y Motores de Base de Datos concurrentemente sin cuellos de botella.</em></small></p>
+    </aside>
+  </div>
+
+  <footer class="footer-principal">
+    <div class="footer-contenido">
+      <p><strong>Programa de Formación SENA:</strong> Tecnólogo en Análisis y Desarrollo de Software (ADSO)</p>
+      <p>Evidencia de Aprendizaje: Guía Interactiva de Hardware para Programación</p>
+      <p><a href="img/creditos-imagenes.txt">Créditos y licencias de las imágenes</a></p>
+      <p>&copy; 2026 - Proyecto Educativo para Desarrollo Web Semántico y Accesible</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía académica sobre SSD: Almacenamiento de Alto Rendimiento para estudio de hardware en el programa SENA ADSO.">
+  <title>SSD: Almacenamiento de Alto Rendimiento | Guía de Hardware ADSO</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+
+  <div class="barra-progreso" aria-hidden="true"></div>
+
+  <header class="header-principal">
+    <div class="contenedor-header">
+      <div class="header-acciones">
+        <span class="indicador-tema">Tema 4 de 7</span>
+        <button id="btn-tema" class="btn-tema" aria-pressed="false" type="button">🌙 Modo Oscuro</button>
+      </div>
+      <h1>SSD: Almacenamiento de Alto Rendimiento</h1>
+    </div>
+  </header>
+
+  <nav class="nav-principal" aria-label="Navegación de Temas">
+    <ol>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="tarjeta-madre.html" >1. Tarjeta Madre</a></li>
+      <li><a href="procesador.html" >2. Procesador</a></li>
+      <li><a href="memoria-ram.html" >3. Memoria RAM</a></li>
+      <li><a href="almacenamiento.html" aria-current='page'>4. Almacenamiento SSD</a></li>
+      <li><a href="fuente-poder.html" >5. Fuente de Poder</a></li>
+      <li><a href="refrigeracion.html" >6. Refrigeración</a></li>
+      <li><a href="tarjeta-grafica.html" >7. Tarjeta Gráfica</a></li>
+    </ol>
+  </nav>
+
+  <div class="breadcrumb-container">
+    <ul class="breadcrumb">
+      <li><a href="../index.html">Inicio</a></li>
+      <li aria-current="page">SSD</li>
+    </ul>
+  </div>
+
+  <div class="contenedor-layout">
+    <div class="layout-articulo">
+      <main>
+        <article class="articulo-principal">
+          <header class="articulo-encabezado">
+            <svg class="icono-svg-contenedor" role="img" aria-labelledby="t-svg-4 desc-svg-4" viewBox="0 0 24 24">
+              <title id="t-svg-4">SSD: Almacenamiento de Alto Rendimiento</title>
+              <desc id="desc-svg-4">Icono semántico representando SSD: Almacenamiento de Alto Rendimiento</desc>
+              <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm2 4v2h3V8H6zm0 5v2h3v-2H6zm12-5h-6v7h6V8z"/>
+            </svg>
+            <div>
+              <h2>SSD: Almacenamiento de Alto Rendimiento</h2>
+              <p><small>Módulo educativo para la infraestructura del computador de desarrollo</small></p>
+            </div>
+          </header>
+
+          <figure>
+            <img src="../img/ssd.jpg" alt="Unidad de estado sólido M.2 NVMe de formato compacto e interfaz ultrarrápida.">
+            <figcaption>Figura 4. Unidad de estado sólido M.2 NVMe de formato compacto e interfaz ultrarrápida.</figcaption>
+          </figure>
+
+          <section class="seccion-contenido">
+            <h2>¿Qué es?</h2>
+            <p>Una Unidad de Estado Sólido (SSD) es un dispositivo de almacenamiento secundario no volátil que utiliza memoria flash NAND para conservar los datos de forma permanente. A diferencia de los discos duros mecánicos (HDD), no posee partes móviles en su interior.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Función Principal</h2>
+            <p>Guardar el sistema operativo, las herramientas de desarrollo, librerías y proyectos. Su ventaja competitiva radica en tiempos de acceso casi instantáneos y velocidades de transferencia extremadamente elevadas.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Importancia para la Programación</h2>
+            <p>Los proyectos de programación modernos constan de miles de pequeños archivos dispersos (por ejemplo, la carpeta node_modules en JavaScript). Un SSD permite indexar, buscar, leer y escribir estos archivos en fracción de segundos, reduciendo drásticamente el tiempo de inicio del sistema y la carga del IDE.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Recomendación para Estudiantes ADSO</h2>
+            <p>Se recomienda utilizar como unidad principal un SSD NVMe M.2 de 500 GB o 1 TB. Esta capacidad asegura suficiente espacio para particiones de Linux/Windows, contenedores Docker y repositorios locales.</p>
+          </section>
+
+          <div class="caja-curiosidad">
+            <h3>¿Sabías que...?</h3>
+            <p>Mientras un disco duro tradicional HDD alcanza velocidades de lectura cercanas a los 120 MB/s, un SSD NVMe PCIe 4.0 puede superar los 7,000 MB/s, ¡siendo casi 60 veces más rápido!</p>
+          </div>
+
+          <nav class="paginacion-articulo" aria-label="Navegación entre artículos">
+            <a href="memoria-ram.html" class="btn-nav-pag">&laquo; Anterior: Memoria RAM</a>
+            <a href="fuente-poder.html" class="btn-nav-pag">Siguiente: Fuente de Poder &raquo;</a>
+          </nav>
+        </article>
+      </main>
+
+      <aside class="sidebar-info" aria-labelledby="aside-t4">
+        <h3 id="aside-t4">SATA vs NVMe</h3>
+        <ul>
+          <li><strong>SSD SATA III:</strong> Utiliza el protocolo tradicional con un límite físico de velocidad cercano a los 550 MB/s. Formato de 2.5 pulgadas.</li><li><strong>SSD M.2 NVMe:</strong> Se conecta directamente al bus PCI Express eliminando los cuellos de botella del protocolo SATA. Velocidades entre 2000 MB/s y 7500 MB/s.</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer-principal">
+    <div class="footer-contenido">
+      <p><strong>Programa SENA ADSO</strong> | Evidencia de Aprendizaje HTML5 &amp; CSS3</p>
+      <p>&copy; 2026 - Guía para Armar un Computador para Estudio y Programación</p>
+    </div>
+  </footer>
+
+</body>
+</html>

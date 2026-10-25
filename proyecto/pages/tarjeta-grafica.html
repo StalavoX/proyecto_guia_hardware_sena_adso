@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía académica sobre Tarjeta Gráfica: Potencia Visual para estudio de hardware en el programa SENA ADSO.">
+  <title>Tarjeta Gráfica: Potencia Visual | Guía de Hardware ADSO</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+
+  <div class="barra-progreso" aria-hidden="true"></div>
+
+  <header class="header-principal">
+    <div class="contenedor-header">
+      <div class="header-acciones">
+        <span class="indicador-tema">Tema 7 de 7</span>
+        <button id="btn-tema" class="btn-tema" aria-pressed="false" type="button">🌙 Modo Oscuro</button>
+      </div>
+      <h1>Tarjeta Gráfica: Potencia Visual</h1>
+    </div>
+  </header>
+
+  <nav class="nav-principal" aria-label="Navegación de Temas">
+    <ol>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="tarjeta-madre.html" >1. Tarjeta Madre</a></li>
+      <li><a href="procesador.html" >2. Procesador</a></li>
+      <li><a href="memoria-ram.html" >3. Memoria RAM</a></li>
+      <li><a href="almacenamiento.html" >4. Almacenamiento SSD</a></li>
+      <li><a href="fuente-poder.html" >5. Fuente de Poder</a></li>
+      <li><a href="refrigeracion.html" >6. Refrigeración</a></li>
+      <li><a href="tarjeta-grafica.html" aria-current='page'>7. Tarjeta Gráfica</a></li>
+    </ol>
+  </nav>
+
+  <div class="breadcrumb-container">
+    <ul class="breadcrumb">
+      <li><a href="../index.html">Inicio</a></li>
+      <li aria-current="page">Tarjeta Gráfica</li>
+    </ul>
+  </div>
+
+  <div class="contenedor-layout">
+    <div class="layout-articulo">
+      <main>
+        <article class="articulo-principal">
+          <header class="articulo-encabezado">
+            <svg class="icono-svg-contenedor" role="img" aria-labelledby="t-svg-7 desc-svg-7" viewBox="0 0 24 24">
+              <title id="t-svg-7">Tarjeta Gráfica: Potencia Visual</title>
+              <desc id="desc-svg-7">Icono semántico representando Tarjeta Gráfica: Potencia Visual</desc>
+              <path d="M2 6h20v12H2V6zm3 3a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm8 0a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm5 0h2v6h-2V9z"/>
+            </svg>
+            <div>
+              <h2>Tarjeta Gráfica: Potencia Visual</h2>
+              <p><small>Módulo educativo para la infraestructura del computador de desarrollo</small></p>
+            </div>
+          </header>
+
+          <figure>
+            <img src="../img/gpu.jpg" alt="Tarjeta de video dedicada con memoria VRAM integrada para procesamiento en paralelo masivo.">
+            <figcaption>Figura 7. Tarjeta de video dedicada con memoria VRAM integrada para procesamiento en paralelo masivo.</figcaption>
+          </figure>
+
+          <section class="seccion-contenido">
+            <h2>¿Qué es?</h2>
+            <p>La Tarjeta Gráfica o GPU es un coprocesador especializado en el procesamiento de gráficos, cálculos matemáticos matriciales y renderizado de imágenes. Puede presentarse de forma integrada (dentro del mismo chip de la CPU) o dedicada (tarjeta PCIe independiente con su propia memoria VRAM).</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Función Principal</h2>
+            <p>Calcular las operaciones matemáticas necesarias para proyectar imágenes en una o múltiples pantallas, liberando a la CPU de las tareas intensivas de renderizado geométrico y espacial.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Importancia para la Programación</h2>
+            <p>Para la programación web tradicional (HTML, CSS, JS) o Backend (Java, C#) basta con gráficos integrados. Sin embargo, para el desarrollo de videojuegos (Unity/Unreal Engine), ciencia de datos, aprendizaje automático (IA/Deep Learning) y diseño 3D, una tarjeta dedicada NVIDIA con núcleos CUDA o AMD con ROCm es imprescindible.</p>
+          </section>
+
+          <section class="seccion-contenido">
+            <h2>Recomendación para Estudiantes ADSO</h2>
+            <p>Si tu enfoque es Desarrollo Web o Móvil, las gráficas integradas de un procesador moderno (ej. AMD Radeon Vega/RDNA) son suficientes. Si planeas explorar Inteligencia Artificial o Desarrollo 3D, se recomienda una GPU dedicada como la NVIDIA RTX 3050 / 4060 con al menos 8 GB de VRAM.</p>
+          </section>
+
+          <div class="caja-curiosidad">
+            <h3>¿Sabías que...?</h3>
+            <p>Las GPUs modernas poseen miles de pequeños núcleos diseñados específicamente para efectuar sumas y multiplicaciones matriciales en paralelo, lo que las hace ideales para entrenar redes neuronales artificiales miles de veces más rápido que una CPU tradicional.</p>
+          </div>
+
+          <nav class="paginacion-articulo" aria-label="Navegación entre artículos">
+            <a href="refrigeracion.html" class="btn-nav-pag">&laquo; Anterior: Refrigeración</a>
+            <a href="../index.html" class="btn-nav-pag">Volver al Inicio &raquo;</a>
+          </nav>
+        </article>
+      </main>
+
+      <aside class="sidebar-info" aria-labelledby="aside-t7">
+        <h3 id="aside-t7">Aplicaciones Actuales de GPU</h3>
+        <ul>
+          <li><strong>Inteligencia Artificial:</strong> Modelado de Lenguaje (LLMs) y visión por computador mediante CUDA y Tensor Cores.</li><li><strong>Desarrollo de GameDev:</strong> Sombreado en tiempo real, trazado de rayos (Ray Tracing) y físicas.</li><li><strong>Aceleración Web:</strong> Aceleración por hardware en navegadores y APIs avanzadas como WebGL / WebGPU.</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer-principal">
+    <div class="footer-contenido">
+      <p><strong>Programa SENA ADSO</strong> | Evidencia de Aprendizaje HTML5 &amp; CSS3</p>
+      <p>&copy; 2026 - Guía para Armar un Computador para Estudio y Programación</p>
+    </div>
+  </footer>
+
+</body>
+</html>

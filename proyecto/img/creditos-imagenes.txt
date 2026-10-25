@@ -1,0 +1,37 @@
+Imagenes de componentes
+=======================
+
+motherboard.jpg
+  Autor: Jacek Halicki
+  Licencia: CC BY-SA 4.0
+  Fuente: https://commons.wikimedia.org/wiki/File:2023_P%C5%82yta_g%C5%82%C3%B3wna_Asus_ROG_STRIX_Z690-A_GAMING_WIFI.jpg
+
+cpu.jpg
+  Autor: Jacek Halicki
+  Licencia: CC BY-SA 4.0
+  Fuente: https://commons.wikimedia.org/wiki/File:2023_Intel_Core_i7_12700KF_(3).jpg
+
+ram.jpg
+  Autor: PantheraLeo1359531
+  Licencia: CC BY 4.0
+  Fuente: https://commons.wikimedia.org/wiki/File:16_GiB-DDR4-RAM-Riegel_RAM019FIX_Small_Crop_90_PCNT.png
+
+ssd.jpg
+  Autor: Daniel Aleksandersen
+  Licencia: CC BY-SA 4.0
+  Fuente: https://www.flickr.com/photos/184613180@N08/48767026886
+
+psu.jpg
+  Autor: Victor Korniyenko
+  Licencia: CC BY-SA 3.0
+  Fuente: https://commons.wikimedia.org/wiki/File:Power_Supply_ATX-450PNF.jpg
+
+cooler.jpg
+  Autor: Douglas Paul Perkins
+  Licencia: CC BY 3.0
+  Fuente: https://commons.wikimedia.org/wiki/File:Computer_heatsink_and_fan.jpg
+
+gpu.jpg
+  Autor: Jacek Halicki
+  Licencia: CC BY-SA 4.0
+  Fuente: https://commons.wikimedia.org/wiki/File:2023_MSI_GeForce_RTX_2080_Gaming_X_Trio_(3).jpg
